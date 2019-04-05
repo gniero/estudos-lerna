@@ -3,6 +3,12 @@
   "private": true,
   "devDependencies": {
     "commitizen": "^3.0.7",
+    "git-cz": "^3.0.1",
     "lerna": "^3.13.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/git-cz"
+    }
   }
 }
